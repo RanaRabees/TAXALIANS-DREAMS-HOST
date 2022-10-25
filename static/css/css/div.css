@@ -1,0 +1,269 @@
+
+
+
+
+
+***************
+#dh-home {
+    overflow-x: hidden
+}
+
+#dh-home .homepage-hero-gradient {
+    position: relative
+}
+
+#dh-home .homepage-hero-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(75deg, rgba(0, 69, 162, 0.99) 8%, rgba(0, 69, 162, 0.6))
+}
+
+#dh-home .pcmag-hero-bottom {
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    z-index: 1
+}
+
+#dh-home .pcmag-hero-bottom .pcmag-hero-container {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    top: -35px;
+    left: 0px;
+    overflow: hidden;
+    text-align: center;
+    background: rgba(255, 255, 255, 0)
+}
+
+#dh-home .pcmag-hero-bottom .pcmag-award-container {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: -25px;
+    text-align: center;
+    overflow: hidden
+}
+
+#dh-home .icon-pcmag-award {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url(./icon-pcmag-award-e429f547c16e5e3e3a393441c22f3b3f18c8b3b99230ee25f72b7eb6f9c14ff1.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+#dh-home .icon-holder {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: inline-block
+}
+
+#dh-home .icon-holder:before {
+    content: '';
+    width: 50vw;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    right: 69px;
+    top: 25px
+}
+
+#dh-home .icon-holder:after {
+    content: '';
+    width: 50vw;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 69px;
+    top: 25px
+}
+
+#dh-home .icon-holder .award-circle-top {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.8)
+}
+
+@media (max-width: 520px) {
+    #dh-home .Button {
+        width: 100%
+    }
+}
+
+#dh-home .sub-heading {
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#dh-home .product-grid--homepagev3 .Tag {
+    right: auto;
+    left: 1rem;
+    top: -12px
+}
+
+#dh-home .product-grid--homepagev3 #find-your-domain-name {
+    border: 1px solid #AFBFC9
+}
+
+#dh-home .product-grid--homepagev3 .search-domain {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 44px
+}
+
+#dh-home .product-grid--homepagev3 .domain-promo-custom {
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    display: inline-block;
+    -webkit-filter: brightness(0.5) invert(100%);
+    filter: brightness(0.5) invert(100%)
+}
+
+#dh-home .product-grid--homepagev3 .homepage-product-table {
+    border-radius: 3px
+}
+
+#dh-home .signup-dhrobot--homepagev3 .dh-robot {
+    width: 100%;
+    max-width: 350px;
+    height: auto
+}
+
+#dh-home .signup-dhrobot--homepagev3 .center-content {
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_left .support-staff-container {
+    width: 100%;
+    height: 0;
+    padding-top: 75%;
+    display: inline-block;
+    z-index: 0;
+    bottom: 0px
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_left .support-staff-container .inner {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    z-index: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_left .support-staff-container .inner .support-male {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    background-image: url(./dh-support-male-983023bf16c1925fcd732c00306634b6ac7f0589840a86724e274eb2c32da710.png);
+    background-size: contain;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transition-delay: 2s
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_left .support-staff-container .inner .support-female {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
+    background-image: url(./dh-support-female-e21d9cdc1c411715e3028953be87e808d16b6f6467f2eca27befecedc80684a6.png);
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transition-delay: 2s
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_left .support-staff-container .inner .anim_go-up {
+    bottom: -10px
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_right {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(67, 79, 88, 0.9)
+}
+
+#dh-home .contact-support--homepagev3 .grid-section_right .content-center {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0px;
+    width: 100%
+}
+
+/**********/
+
+.async-hide {
+    opacity: 0 !important
+}
+/**********/
+
+.add-cursor:hover {
+    cursor: pointer;
+}
+
+.bfcm-box {
+    color: #071c26;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.custom-hover-link {
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-hover-link:hover {
+    -webkit-box-shadow: 6px 6px 9px 1px #575757;
+    box-shadow: 6px 6px 9px 1px #575757;
+}
+
+@media screen and (max-width: 750px) {
+    .hide-this {
+        display: none;
+    }
+    /* hide it elsewhere */
+}
+
+.background2021 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #0073EC;
+    background-size: cover;
+}
+
+
+/***************/
